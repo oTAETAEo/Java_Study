@@ -1,16 +1,10 @@
 package Baekjoon;
 
-import java.util.Scanner;
-
 public class Main {
 
 	public static void main(String[] args) {
-		String string = " ";
 		
-		while(!(string == null)) {			
-			Scanner scanner = new Scanner(System.in);
-			string = scanner.nextLine();
-			System.out.println(string);	
-		}
+		System.out.println("깃허브 하나 올리기 진짜 힘든데 재미있다 하나씩 알아가는 방법");
+		
 	}
 }
