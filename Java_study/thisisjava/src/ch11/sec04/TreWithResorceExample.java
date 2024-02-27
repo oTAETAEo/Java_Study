@@ -24,6 +24,7 @@ public class TreWithResorceExample {
 		
 		
 		// AutoCloseable 를 상속 받았다면 close() 는 생략 가능.
+		// 아래처럼 사용 하려면 클래스를 AutoCloseable 클래스를 상속 받아야함
 		try (MyResource res2 = new MyResource("res2")){
 			// 리소스 열기.
 			// 리소스 읽기
@@ -46,7 +47,8 @@ public class TreWithResorceExample {
 		} catch (Exception e) {
 			e.getMessage();
 		}
-	
+		
+		// try() 괄호 안에 적을 객체가 많다면 밖에서 생성후 아래처럼 선언할수도 있다.
 		MyResource res4 = new MyResource("res4");
 		MyResource res5 = new MyResource("res5");
 		try (res4;res5){
@@ -56,7 +58,8 @@ public class TreWithResorceExample {
 		} catch (Exception e) {
 			e.getMessage();
 		}
-				
+			
+		
 	}
 
 }
