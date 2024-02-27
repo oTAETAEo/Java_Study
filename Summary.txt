@@ -56,8 +56,19 @@ RuntimeException은 실행 예외
 throw 키워드 사용
 사용방법:  throw new 사용자 정의 예외 클래스 명 ("예외 메시지");
 
-ch11.sec06 참고.
-
+예) public void withdraw(long money) throws InsufficientException{
+	 	if(balance < money) {			
+	 		(예외 발생 방법)
+			throw new InsufficientException("잔고 부족: " + (money-balance) + "모자랍니다");	
+		}
+		balance -= money;
+	}
+ 
+ if문이 실행이 되면 사용자 정의 예외 클래스인 InsufficientException 의 객체를 생성한다 생성할때 위에 String의 매개변수를 가진
+ 생성자가 있는데 위처럼 괄호에 예외 이유를 적어서 넘겨줄수 있다. 
+ 
+ 메소드가 실행된 곳으로 객체를 넘겨 실행된 try의 문의 catch로 넘어가서 예외 처리를 하게 된다.
+ 
  
 
 
