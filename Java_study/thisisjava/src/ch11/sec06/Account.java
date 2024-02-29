@@ -2,6 +2,7 @@ package ch11.sec06;
 
 public class Account {
 	
+	
 	// 잔고.
 	private long balance;
 	
