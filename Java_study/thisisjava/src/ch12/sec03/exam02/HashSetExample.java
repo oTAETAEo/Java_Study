@@ -13,6 +13,10 @@ public class HashSetExample {
 
 		// HashSet 자료구조는 동등 객체는 하나만 저장한다 이 기능을 사용하려면 자료구조에 넣을 클래스에
 		// hashCode(), equals()이 동등객체를 비교하는 코드로 오버라이딩이 되어있어야 한다.
+		
+		// hashCode()가 동등객체를 비교하는 코드로 오버라이딩이 되어있지 않으면 객체의 번지를 해싱해서 리턴해주기 때문에
+		// 값이 무조껀 다를수 밖에 없다.
+		
 		hashSet.add(student1);
 		System.out.println("크기: " + hashSet.size());
 		

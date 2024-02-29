@@ -21,6 +21,7 @@ public class Student {
 	
 	@Override
 	public int hashCode() {
+		// 학생의 번호 + 이름을 해싱한 값.
 		int hashCode = num + name.hashCode();
 		return hashCode;
 	}
