@@ -5,4 +5,6 @@
  * 
  */
 module thisisjava {
+	requires lombok;
+
 }
