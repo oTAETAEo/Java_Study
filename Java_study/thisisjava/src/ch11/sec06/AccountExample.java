@@ -15,7 +15,7 @@ public class AccountExample {
 		
 		// 예외 처리.
 		try {
-			account.withdraw(30000);
+			account.withdraw(200);
 		} catch (InsufficientException e) {
 			String message = e.getMessage();
 			System.out.println(message);

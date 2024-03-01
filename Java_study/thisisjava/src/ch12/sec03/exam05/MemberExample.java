@@ -25,7 +25,6 @@ public class MemberExample {
 		// 동등객체이기 떄문에 하나만 저장되어 있다.
 		System.out.println(hashSet.size());
 		
-		System.out.println(System.nanoTime());
 	}
 
 }
