@@ -33,8 +33,7 @@ public class LosAngelesExample {
 		String[] str = TimeZone.getAvailableIDs();
 		for(String a : str) {
 			System.out.println(a);
-		}
- 		
+		}			
 	}
 
 }
