@@ -15,6 +15,7 @@ public class ThrowsExample {
 	public static void findClass() throws ClassNotFoundException{
 		// 괄호 안에 있는 클래스명 파일을 찾아라.
 		// 없으면 예외 발생.
+		// 이 메소드를 실행한 곳으로 가서 예외 처리를 한다.
 		Class.forName("java,lang.String2");
 	}
 }
