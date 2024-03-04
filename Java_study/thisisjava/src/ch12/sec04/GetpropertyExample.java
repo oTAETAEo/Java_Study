@@ -22,7 +22,7 @@ public class GetpropertyExample {
 		System.out.println("-----------------------");
 		// 객체를 가져온다.
 		Properties props = System.getProperties();
-		Set keys = props.keySet(); 
+		Set<?> keys = props.keySet(); 
 		
 		for(Object objKey : keys) {
 			String key = (String) objKey;
