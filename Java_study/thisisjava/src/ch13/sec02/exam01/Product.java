@@ -1,4 +1,4 @@
-package ch13.sec02;
+package ch13.sec02.exam01;
 
 // 타입 파라미터 자리에 오는 참조 객체들의 타입은 K는 K 자리로 M은 M자리로 간다.
 public class Product<K,M> {
