@@ -30,6 +30,12 @@ public class A {
 		}
 	}
 	
+	class C{
+		public void methot2() {
+			System.out.println("C-methot()");
+		}
+	}
+	
 	void useB() {
 		B b = new B();
 		b.print();
