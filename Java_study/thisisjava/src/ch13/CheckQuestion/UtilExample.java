@@ -1,6 +1,7 @@
 package ch13.CheckQuestion;
 
 public class UtilExample {
+	
 	public static void main(String[] args) {
 		
 		Pair<String, Integer> pair = new Pair<>( "홍길동" , 35 );
@@ -15,5 +16,7 @@ public class UtilExample {
  //OtherPair는 Pair를 상속하지 않으므로 컴파일 에러가 발생
  int otherAge = Util.getValue(otherPair, "홍삼원");
  System.out.println(otherAge);*/
+		
+	
 	}
 }
