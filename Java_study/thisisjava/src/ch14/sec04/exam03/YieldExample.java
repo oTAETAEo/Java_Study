@@ -16,7 +16,7 @@ public class YieldExample {
 		}
 		
 		try {
-			Thread.sleep(10000);
+			Thread.sleep(5000);
 			workThread1.work = true;
 		} catch (InterruptedException e) {
 		}

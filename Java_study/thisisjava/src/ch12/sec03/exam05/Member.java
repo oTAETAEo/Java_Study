@@ -10,4 +10,8 @@ public class Member {
 	@NonNull private String name;
 	private int age;
 	
+	public Member(String id, String name) {
+		this.id = id;
+		this.name = name;
+	}
 }
