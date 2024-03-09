@@ -12,6 +12,8 @@ public class MainThreadExample {
 		System.out.println(currThead.getName());
 		
 		System.out.println("종료");
+		
+		
 	}
 
 }

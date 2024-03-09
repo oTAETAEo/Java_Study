@@ -11,7 +11,7 @@ public class PrintThread extends Thread{
 
 		while(true) {
 			System.out.println("실행중...");
-			if(isInterrupted()) {
+			if(this.isInterrupted()) {
 				break;
 			}
 			if(Thread.interrupted()) {
