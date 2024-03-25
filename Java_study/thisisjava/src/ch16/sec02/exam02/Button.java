@@ -1,6 +1,5 @@
 package ch16.sec02.exam02;
 
-
 public class Button {
 	
 	@FunctionalInterface

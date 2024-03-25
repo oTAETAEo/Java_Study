@@ -1,18 +1,22 @@
 package Baekjoon;
 
 import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Main {
 	public static void main(String[] args) {
 		
-		List<String> names = Arrays.asList("Sehoon", "Songwoo", "Chan", "Youngsuk", "Dajung");
+		int[] num = {1000,1000};
 		
-		final List<String> star = names.stream()
-				.filter(name -> name.startsWith("S"))
-				.collect(Collectors.toList());
-		System.out.println(star);
+		IntStream stream = Arrays.stream(num);
+		double t = stream.average().getAsDouble();
+		System.out.println(t);
+		
+		IntStream stream1 = IntStream.of(num);
+		double t1 = stream1.average().getAsDouble();
+		System.out.println(t);
+		
+		
 	}
 }
 

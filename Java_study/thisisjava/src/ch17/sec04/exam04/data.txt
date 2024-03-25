@@ -1,0 +1,5 @@
+{pon1, name상품1, company멋진 회사, price3957}
+{pon2, name상품2, company멋진 회사, price870}
+{pon3, name상품3, company멋진 회사, price5925}
+{pon4, name상품4, company멋진 회사, price3537}
+{pon5, name상품5, company멋진 회사, price2868}

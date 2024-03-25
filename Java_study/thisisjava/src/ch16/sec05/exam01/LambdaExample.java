@@ -19,7 +19,7 @@ public class LambdaExample {
 		// 인스턴스 클래스의 메소드 참조.
 		// 클래스 참조 변수를 사용한다.
 		Computer computer = new Computer();
-		
+				
 		person.action((x, y) -> computer.instanceMethod(x, y));
 		
 		person.action(computer :: instanceMethod);
