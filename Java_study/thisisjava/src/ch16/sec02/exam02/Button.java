@@ -12,9 +12,9 @@ public class Button {
 	public void setClickListener(ClickListener clickListener) {
 		this.clickListener = clickListener;
 	}
-	
 	public void click() {
 		this.clickListener.onClick();
 	}
+	
 	
 }

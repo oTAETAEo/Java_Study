@@ -21,8 +21,9 @@ public class LambdaExample {
 		Computer computer = new Computer();
 				
 		person.action((x, y) -> computer.instanceMethod(x, y));
-		
 		person.action(computer :: instanceMethod);
+		
+		
 		
 	}
 }
