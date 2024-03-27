@@ -1,6 +1,6 @@
 package ch01.sec09;
 
-// 파일 이름과 cless 이름은 같아야 한다.
+// 파일 이름과 class 이름은 같아야 한다.
 public class Hello {
 	
 	// 실행 진입점. 
