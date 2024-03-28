@@ -3,6 +3,7 @@ package ch17.sec12.exam02;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 
 import ch17.sec12.exam01.Student;
@@ -30,7 +31,17 @@ public class CollectExample {
 		maleList.stream()
 		.forEach(t -> System.out.println(t.getName()));
 		
+		// 그룹화 된 리스트의 평균 구하기 두 코드는 동일한 값 리턴.
+		OptionalDouble avg1 =  maleList.stream()
+				.mapToDouble(value -> value.getScore())
+				.average();	
+		System.out.println(avg1.getAsDouble());
 		
+		double avg2 =  maleList.stream()
+				.mapToDouble(value -> value.getScore())
+				.average()
+				.getAsDouble();
+		System.out.println(avg2);
 	}
 
 }
